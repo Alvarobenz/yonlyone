@@ -55,19 +55,22 @@ void LazyMan()
 		cout << reversed1 << endl;
 		cout << reversed2 << endl;
 		cout << reversed3 << endl;
+		
+		if  (palin1 != "")
+			if(isPalindrome(palin1))
+				cout << palin1 + " is a palindrome" << endl;
+			else
+				cout << palin1 + " is not a palindrome" << endl;
+		
+		if ( palin2 != "")
+			if(isPalindrome(palin2))
+				cout << palin2 + " is a palindrome" << endl;
+			else
+				cout << palin2 + " is not a palindrome" << endl;
 
-		if(isPalindrome(palin1))
-			cout << palin1 + " is a palindrome" << endl;
-		else
-			cout << palin1 + " is not a palindrome" << endl;
-
-		if(isPalindrome(palin2))
-			cout << palin2 + " is a palindrome" << endl;
-		else
-			cout << palin2 + " is not a palindrome" << endl;
-
-		if(isPalindrome(palin3))
-			cout << palin3 + " is a palindrome" << endl;
-		else
-			cout << palin3 + " is not a palindrome" << endl;
+		if ( palin3 != "" )	
+			if(isPalindrome(palin3))
+				cout << palin3 + " is a palindrome" << endl;
+			else
+				cout << palin3 + " is not a palindrome" << endl;
 }
