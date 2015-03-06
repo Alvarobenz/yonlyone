@@ -1,0 +1,24 @@
+http://www.algolist.net/Algorithms/Sorting/Quicksort 
+
+pivot value = array.size/2 
+
+If the array 0 >= pivot >= array -1
+  then you swap them
+Elif array[ 0 + 1] and [-1 - 1]
+
+If number_guess > um_act
+  output =  Lower
+If number_guess < num_act
+  output =  Higher
+
+If num_act > num(num.size/2)
+
+ x = list.size/2
+While (act_num =! i )
+
+  for as long as act num > num(x)
+    x = x + x/2
+    
+  for as long as act num < num(x)
+    x = x/2
+    
