@@ -5,8 +5,6 @@ using namespace std;
 int main()
 {	// Start of function
 
-	/* Selection Sort */
-
 	int array [5] = {1, 9, 3, 2, 5};
 	int i, j, min, temp;
 
@@ -51,9 +49,9 @@ int main()
 		{
 			/* Swap Algorithm */
 
-			temp = array[i];		// Store current value index "i" in a temp variable.
+			temp = array[i];	// Store current value index "i" in a temp variable.
 			array[i] = array[min];	// Store the min value in index "i" of the array
-			array[min] = temp;		// Store our temp value into array[min]
+			array[min] = temp;	// Store our temp value into array[min]
 		}
 	}
 
