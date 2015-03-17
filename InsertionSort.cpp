@@ -5,8 +5,6 @@ using namespace std;
 int main()
 {	// Start of function
 
-	/* Selection Sort */
-
 	int array [5] = {1, 9, 3, 2, 5};
 	int i, j, key;
 
@@ -22,7 +20,6 @@ int main()
 	cout << endl;
 
 	/* Insertion Sort */
-
 	for(int i = 1; i < 5; i++)
 	{
 		key = array[i];
